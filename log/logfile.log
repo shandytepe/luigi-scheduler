@@ -1,0 +1,72 @@
+DEBUG: Checking if ExtractData() is complete
+INFO: Informed scheduler that task   ExtractData__99914b932b   has status   DONE
+DEBUG: Checking if TransformData() is complete
+INFO: Informed scheduler that task   TransformData__99914b932b   has status   DONE
+DEBUG: Checking if LoadData() is complete
+/home/shandytp/learn-luigi/pertemuan-14/video-learning/venv/lib/python3.9/site-packages/luigi/worker.py:419: UserWarning: Task LoadData() without outputs has no custom complete() method
+  is_complete = task.complete()
+DEBUG: Checking if TransformData() is complete
+INFO: Informed scheduler that task   LoadData__99914b932b   has status   PENDING
+INFO: Informed scheduler that task   TransformData__99914b932b   has status   DONE
+INFO: Done scheduling tasks
+INFO: Running Worker with 1 processes
+DEBUG: Asking scheduler for work...
+DEBUG: Pending tasks: 1
+INFO: [pid 12328] Worker Worker(salt=2651304194, workers=1, host=shandytp, username=shandytp, pid=12328) running   LoadData()
+INFO: [pid 12328] Worker Worker(salt=2651304194, workers=1, host=shandytp, username=shandytp, pid=12328) done      LoadData()
+DEBUG: 1 running tasks, waiting for next task to finish
+INFO: Informed scheduler that task   LoadData__99914b932b   has status   DONE
+DEBUG: Asking scheduler for work...
+DEBUG: Done
+DEBUG: There are no more tasks to run at this time
+INFO: Worker Worker(salt=2651304194, workers=1, host=shandytp, username=shandytp, pid=12328) was stopped. Shutting down Keep-Alive thread
+INFO: 
+===== Luigi Execution Summary =====
+
+Scheduled 3 tasks of which:
+* 2 complete ones were encountered:
+    - 1 ExtractData()
+    - 1 TransformData()
+* 1 ran successfully:
+    - 1 LoadData()
+
+This progress looks :) because there were no failed tasks or missing dependencies
+
+===== Luigi Execution Summary =====
+
+DEBUG: Checking if ExtractData() is complete
+INFO: Informed scheduler that task   ExtractData__99914b932b   has status   DONE
+DEBUG: Checking if TransformData() is complete
+INFO: Informed scheduler that task   TransformData__99914b932b   has status   DONE
+DEBUG: Checking if LoadData() is complete
+/home/shandytp/learn-luigi/pertemuan-14/video-learning/venv/lib/python3.9/site-packages/luigi/worker.py:419: UserWarning: Task LoadData() without outputs has no custom complete() method
+  is_complete = task.complete()
+DEBUG: Checking if TransformData() is complete
+INFO: Informed scheduler that task   LoadData__99914b932b   has status   PENDING
+INFO: Informed scheduler that task   TransformData__99914b932b   has status   DONE
+INFO: Done scheduling tasks
+INFO: Running Worker with 1 processes
+DEBUG: Asking scheduler for work...
+DEBUG: Pending tasks: 1
+INFO: [pid 12488] Worker Worker(salt=6090019447, workers=1, host=shandytp, username=shandytp, pid=12488) running   LoadData()
+INFO: [pid 12488] Worker Worker(salt=6090019447, workers=1, host=shandytp, username=shandytp, pid=12488) done      LoadData()
+DEBUG: 1 running tasks, waiting for next task to finish
+INFO: Informed scheduler that task   LoadData__99914b932b   has status   DONE
+DEBUG: Asking scheduler for work...
+DEBUG: Done
+DEBUG: There are no more tasks to run at this time
+INFO: Worker Worker(salt=6090019447, workers=1, host=shandytp, username=shandytp, pid=12488) was stopped. Shutting down Keep-Alive thread
+INFO: 
+===== Luigi Execution Summary =====
+
+Scheduled 3 tasks of which:
+* 2 complete ones were encountered:
+    - 1 ExtractData()
+    - 1 TransformData()
+* 1 ran successfully:
+    - 1 LoadData()
+
+This progress looks :) because there were no failed tasks or missing dependencies
+
+===== Luigi Execution Summary =====
+
